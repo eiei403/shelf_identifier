@@ -6,8 +6,13 @@
 5. group image by category to knowledge_base/crops/object
    <img width="1421" height="536" alt="image" src="https://github.com/user-attachments/assets/f41caf80-4599-4ae0-8f4f-ff00fa3c2eb3" />
 6. เพิ่มรูปภาพใหม่ที่ไม่ได้อยู่ใน dataset เข้าpath data/img ตั้งชื่อว่า test11.jpg
-7. เปิด folder notebook ไฟล์ tsne_embedding_plot.ipynb กด Run All
-8. ไฟล์ testing the model.ipynb 
+7. เปิด folder notebook ไฟล์ tsne_embedding_plot.ipynb กด Run All -> แสดงผล embedding ของภาพด้วย t-SNE
+   - ดูว่าฟีเจอร์ที่โมเดลเรียนรู้สามารถแยกกลุ่มสินค้าได้ดีแค่ไหน (ด้าน interpretability)
+   - ใช้ t-SNE ลดมิติของ vector จากหลายร้อยเหลือ 2 มิติ
+   - วาด scatter plot เพื่อดูว่าภาพที่คล้ายกันถูกจัดกลุ่มไว้ใกล้กันไหม
+     <img width="1040" height="721" alt="image" src="https://github.com/user-attachments/assets/56a253a0-4f2f-48e6-bb4e-20b0c3478a20" />
+9. ไฟล์ testing the model.ipynb ทดสอบความแม่นยำของโมเดล
+10. predict_image_product.ipynb ทำนายชื่อสินค้าจากภาพถ่าย
 
 
 # Facings product identifier using YOLOv8 and image embeddings
