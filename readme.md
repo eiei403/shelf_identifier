@@ -1,4 +1,13 @@
-
+1. input -> data/img ตั้งชื่อไฟล์เป็น testing
+2. cd / เข้าไปในproject
+3. รัน python main.py --input "data/img/testing"
+4. Results saved to data/testing/crops
+   <img width="1647" height="866" alt="image" src="https://github.com/user-attachments/assets/652e346b-90fe-40ae-909e-9be584b80b20" />
+5. group image by category to knowledge_base/crops/object
+   <img width="1421" height="536" alt="image" src="https://github.com/user-attachments/assets/f41caf80-4599-4ae0-8f4f-ff00fa3c2eb3" />
+6. เพิ่มรูปภาพใหม่ที่ไม่ได้อยู่ใน dataset เข้าpath data/img ตั้งชื่อว่า test11.jpg
+7. เปิด folder notebook ไฟล์ tsne_embedding_plot.ipynb กด Run All
+8. ไฟล์ testing the model.ipynb 
 
 
 # Facings product identifier using YOLOv8 and image embeddings
